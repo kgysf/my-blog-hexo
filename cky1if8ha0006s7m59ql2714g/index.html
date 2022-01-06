@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="renderer" content="webkit"><meta name="theme-color" content="#FFFFFF"><title>Windows10 任务栏多窗口重叠不显示预览图显示列表的解决办法</title><link rel="stylesheet" href="/css/normalize.css"><link rel="stylesheet" href="/css/heti.min.css"><link rel="stylesheet" href="/css/hexo-theme-adoubi.css"><link rel="icon" href="/images/favicon.ico"><meta name="generator" content="Hexo 6.0.0"><link rel="alternate" href="/atom.xml" title="Xianyu's Note" type="application/atom+xml">
+</head><body><div class="header"><a class="email-link" href="/"><span>Home</span></a><span class="header-center"></span><a class="email-link" href="mailto:master@uynex.com?subject=[Comment] About: Windows10 任务栏多窗口重叠不显示预览图显示列表的解决办法&amp;body=请在此处书写您的邮件内容; 请勿修改标题, 否则您的邮件可能会被收信规则屏蔽%0d%0a%0d%0a--------------------%0d%0aTitle: Windows10 任务栏多窗口重叠不显示预览图显示列表的解决办法%0d%0aUrl: http://blog.uremy.world/cky1if8ha0006s7m59ql2714g/index.html%0d%0a"><span>Email</span></a><a class="subscribe-link" href="/cky2gr8rr0000twm52crv5sgb/"><span>About</span></a></div><div class="content"><div class="post-item"></div><h2 class="post-title-wrapper"><p class="post-title">Windows10 任务栏多窗口重叠不显示预览图显示列表的解决办法</p></h2><div class="post-date"><time datetime="2019-11-10T12:21:31.000Z">2019-11-10</time></div><div class="post-content"><blockquote>
+<p>最近突然发现我Windows10任务栏同时开两个Chrome的时候，任务栏不会显示窗口预览而是显示一个列表，类似下图，并且在性能设置中也无法解决</p>
+</blockquote>
+<p><img src="/images/2353116502.png" alt="无预览图"></p>
+<blockquote>
+<p>上图是我P的 OωO  因为我已经修复了，而之前没有截图</p>
+</blockquote>
+<h2 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h2><p>首先<code>Win + R</code>打开运行窗口，输入<code>regedit</code>打开注册表编辑器，找到如下节点：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Taskband</span><br></pre></td></tr></table></figure>
+<p>删除 <code>NumThumbnails</code> 然后重启。</p>
+<p>出现这个问题多半是因为点了什么一键优化之类的软件功能了，比如我是点了ASUS GPU Tweak II的一键优化……</p>
+</div></div><div class="footer"><div class="footer-copyright">Theme By <a href="https://github.com/kgysf/hexo-theme-axianyu">Axianyu</a> , Powered By Hexo.</div></div></body></html>
