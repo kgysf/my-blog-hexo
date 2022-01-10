@@ -57,6 +57,8 @@
     
     
     
+    <category term="Oculus Quest 2" scheme="http://blog.uremy.world/tags/Oculus-Quest-2/"/>
+    
   </entry>
   
   <entry>
@@ -77,6 +79,8 @@
     
     
     
+    <category term="Hexo" scheme="http://blog.uremy.world/tags/Hexo/"/>
+    
   </entry>
   
   <entry>
@@ -86,7 +90,7 @@
     <published>2022-01-06T04:22:38.000Z</published>
     <updated>2022-01-06T04:22:38.000Z</updated>
     
-    <content type="html"><![CDATA[<p>这是一条咸鱼的个人笔记网站, 用来记录一些代码片段, 折腾记录等<br>(虽然大多时候都懒得写 <code>∠( ᐛ 」∠)＿</code></p><p>网站使用hexo搭建, 使用的主题是我在 <a href="https://github.com/shinux/hexo-theme-adoubi">hexo-theme-adoubi</a> 的基础上, 自行修改后的主题, 详请参见 <a href="https://github.com/kgysf/hexo-theme-axianyu">hexo-theme-axianyu</a></p><p>网站里的文章, 除了有特别说明的以外, 都可以随意搬运, 不用著注明来源</p><blockquote><p>我的邮箱: <a href="mailto:&#109;&#97;&#x73;&#116;&#x65;&#114;&#64;&#x75;&#x79;&#110;&#101;&#120;&#x2e;&#99;&#111;&#109;">&#109;&#97;&#x73;&#116;&#x65;&#114;&#64;&#x75;&#x79;&#110;&#101;&#120;&#x2e;&#99;&#111;&#109;</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>这是一条咸鱼的个人笔记网站, 用来记录一些代码片段, 折腾记录等<br>(虽然大多时候都懒得写 <code>∠( ᐛ 」∠)＿</code></p><p>网站使用hexo搭建, 使用的主题是我在 <a href="https://github.com/shinux/hexo-theme-adoubi">hexo-theme-adoubi</a> 的基础上, 自行修改后的主题, 详请参见 <a href="https://github.com/kgysf/hexo-theme-axianyu">hexo-theme-axianyu</a></p><p>网站里的文章, 除了有特别说明的以外, 都可以随意搬运, 不用著注明来源</p><blockquote><p>我的邮箱: <a href="mailto:&#x6d;&#x61;&#x73;&#116;&#x65;&#114;&#x40;&#117;&#121;&#x6e;&#x65;&#120;&#46;&#x63;&#111;&#x6d;">&#x6d;&#x61;&#x73;&#116;&#x65;&#114;&#x40;&#117;&#121;&#x6e;&#x65;&#120;&#46;&#x63;&#111;&#x6d;</a></p></blockquote>]]></content>
     
     
       
@@ -118,7 +122,7 @@
     
     
     
-    <category term="hexo" scheme="http://blog.uremy.world/tags/hexo/"/>
+    <category term="Hexo" scheme="http://blog.uremy.world/tags/Hexo/"/>
     
   </entry>
   
@@ -276,6 +280,10 @@
     
     
     
+    <category term="css" scheme="http://blog.uremy.world/tags/css/"/>
+    
+    <category term="html" scheme="http://blog.uremy.world/tags/html/"/>
+    
   </entry>
   
   <entry>
@@ -296,6 +304,10 @@
     
     
     
+    
+    <category term="JavaScript" scheme="http://blog.uremy.world/tags/JavaScript/"/>
+    
+    <category term="Canvas" scheme="http://blog.uremy.world/tags/Canvas/"/>
     
   </entry>
   
@@ -346,6 +358,8 @@
     
     
     
+    <category term="css" scheme="http://blog.uremy.world/tags/css/"/>
+    
   </entry>
   
   <entry>
@@ -366,6 +380,8 @@
     
     
     
+    
+    <category term="css" scheme="http://blog.uremy.world/tags/css/"/>
     
   </entry>
   
