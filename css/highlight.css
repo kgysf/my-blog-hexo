@@ -20,6 +20,9 @@ code {
   border-radius: $code-border-radius;
   font-size: $code-font-size;
 }
+pre {
+  text-align: left;
+}
 pre code {
   padding: 0;
   color: #4d4d4c;
@@ -28,6 +31,10 @@ pre code {
 }
 .highlight {
   border-radius: 4px;
+  text-align: left;
+}
+.highlight figure {
+  text-align: left;
 }
 .highlight pre {
   border: none;
