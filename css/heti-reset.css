@@ -1,3 +1,25 @@
 .heti blockquote p {
   margin-block-end: 12px;
 }
+heti-spacing {
+  display: inline;
+}
+heti-spacing + sup,
+heti-spacing + sub {
+  margin-inline-start: 0;
+}
+.heti-spacing-start {
+  margin-inline-end: 0.25em;
+}
+.heti-spacing-end {
+  margin-inline-start: 0.25em;
+}
+heti-adjacent {
+  display: inline;
+}
+.heti-adjacent-half {
+  margin-inline-end: -0.5em;
+}
+.heti-adjacent-quarter {
+  margin-inline-end: -0.25em;
+}
