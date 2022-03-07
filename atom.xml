@@ -92,7 +92,7 @@
     <published>2022-01-06T04:22:38.000Z</published>
     <updated>2022-01-06T04:22:38.000Z</updated>
     
-    <content type="html"><![CDATA[<p>这是一条咸鱼的个人笔记网站, 用来记录一些代码片段, 折腾记录等<br>(虽然大多时候都懒得写 <code>∠( ᐛ 」∠)＿</code></p><p>网站使用hexo搭建, 使用的主题是我在 <a href="https://github.com/shinux/hexo-theme-adoubi">hexo-theme-adoubi</a> 的基础上, 自行修改后的主题, 详请参见 <a href="https://github.com/kgysf/hexo-theme-axianyu">hexo-theme-axianyu</a></p><blockquote><p>我的邮箱: <a href="mailto:&#x6d;&#x61;&#115;&#116;&#x65;&#114;&#x40;&#117;&#x79;&#x6e;&#101;&#x78;&#46;&#x63;&#111;&#109;">&#x6d;&#x61;&#115;&#116;&#x65;&#114;&#x40;&#117;&#x79;&#x6e;&#101;&#x78;&#46;&#x63;&#111;&#109;</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>这是一条咸鱼的个人笔记网站, 用来记录一些代码片段, 折腾记录等<br>(虽然大多时候都懒得写 <code>∠( ᐛ 」∠)＿</code></p><p>网站使用hexo搭建, 使用的主题是我在 <a href="https://github.com/shinux/hexo-theme-adoubi">hexo-theme-adoubi</a> 的基础上, 自行修改后的主题, 详请参见 <a href="https://github.com/kgysf/hexo-theme-axianyu">hexo-theme-axianyu</a></p><blockquote><p>我的邮箱: <a href="mailto:&#x6d;&#x61;&#115;&#x74;&#x65;&#x72;&#x40;&#117;&#x79;&#110;&#x65;&#120;&#x2e;&#99;&#x6f;&#109;">&#x6d;&#x61;&#115;&#x74;&#x65;&#x72;&#x40;&#117;&#x79;&#110;&#x65;&#120;&#x2e;&#99;&#x6f;&#109;</a></p></blockquote>]]></content>
     
     
       
@@ -193,30 +193,6 @@
     
     
     <category term="css" scheme="http://blog.uremy.world/tags/css/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>输入Bytes转换为合适的最大单位</title>
-    <link href="http://blog.uremy.world/2020/12/js-bytes-format-md/"/>
-    <id>http://blog.uremy.world/2020/12/js-bytes-format-md/</id>
-    <published>2020-12-09T07:24:45.000Z</published>
-    <updated>2020-12-09T07:24:45.000Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">formatBytes</span>(<span class="params">bytes</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(<span class="built_in">isNaN</span>(bytes)) <span class="keyword">return</span> <span class="string">&#x27;0 Bytes&#x27;</span>;</span><br><span class="line">  <span class="keyword">if</span>(bytes &lt;= <span class="number">0</span>) <span class="keyword">return</span> <span class="string">&#x27;0 Bytes&#x27;</span>;</span><br><span class="line">  <span class="keyword">const</span> k = <span class="number">1024</span>;  <span class="comment">// 如果需要1000进位，则改成1000</span></span><br><span class="line">  <span class="keyword">const</span> sizes = [<span class="string">&#x27;Bytes&#x27;</span>, <span class="string">&#x27;KB&#x27;</span>, <span class="string">&#x27;MB&#x27;</span>, <span class="string">&#x27;GB&#x27;</span>, <span class="string">&#x27;TB&#x27;</span>, <span class="string">&#x27;PB&#x27;</span>, <span class="string">&#x27;EB&#x27;</span>, <span class="string">&#x27;ZB&#x27;</span>, <span class="string">&#x27;YB&#x27;</span>];</span><br><span class="line">  <span class="keyword">const</span> i = <span class="built_in">Math</span>.floor(<span class="built_in">Math</span>.log10(bytes) / <span class="built_in">Math</span>.log10(k));</span><br><span class="line">  <span class="keyword">return</span> (<span class="built_in">Math</span>.abs(bytes) / <span class="built_in">Math</span>.pow(k , i)).toFixed(<span class="number">2</span>) + <span class="string">&#x27; &#x27;</span> + sizes[i];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span </summary>
-      
-    
-    
-    
-    
-    <category term="JavaScript" scheme="http://blog.uremy.world/tags/JavaScript/"/>
-    
-    <category term="Code" scheme="http://blog.uremy.world/tags/Code/"/>
     
   </entry>
   
