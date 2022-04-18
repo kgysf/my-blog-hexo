@@ -23,13 +23,14 @@
     <published>2022-04-18T12:46:56.000Z</published>
     <updated>2022-04-18T12:46:56.000Z</updated>
     
-    <content type="html"><![CDATA[<pre><code>在html中 当table的table-layout属性的值设置为fixed的时候, 如果第一行中存在跨列, 那么width将会失效 解决办法为在第一行输出一行无跨列行为的表格并隐藏</code></pre>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>在html中 当table的table-layout属性的值设置为fixed的时候, 如果第一行中存在跨列, 那么width将会失效 解决办法为在第一行输出一行无跨列行为的表格并隐藏</p></blockquote>]]></content>
     
     
       
       
-    <summary type="html">&lt;pre&gt;&lt;code&gt;在html中 当table的table-layout属性的值设置为fixed的时候, 如果第一行中存在跨列, 那么width将会失效 解决办法为在第一行输出一行无跨列行为的表格并隐藏
-&lt;/code&gt;&lt;/pre&gt;
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;在html中 当table的table-layout属性的值设置为fixed的时候, 如果第一行中存在跨列, 那么width将会失效 解决办法为在第一行输出一行无跨列行为的表格并隐藏&lt;/p&gt;
+&lt;/blockquote&gt;
 </summary>
       
     
@@ -118,7 +119,7 @@
     <published>2022-01-06T04:22:38.000Z</published>
     <updated>2022-01-06T04:22:38.000Z</updated>
     
-    <content type="html"><![CDATA[<p>这是一条咸鱼的个人笔记网站, 用来记录一些代码片段, 折腾记录等<br>(虽然大多时候都懒得写 <code>∠( ᐛ 」∠)＿</code></p><p>网站使用hexo搭建, 使用的主题是我在 <a href="https://github.com/shinux/hexo-theme-adoubi">hexo-theme-adoubi</a> 的基础上, 自行修改后的主题, 详请参见 <a href="https://github.com/kgysf/hexo-theme-axianyu">hexo-theme-axianyu</a></p><blockquote><p>我的邮箱: <a href="mailto:&#109;&#x61;&#115;&#x74;&#101;&#x72;&#x40;&#117;&#x79;&#110;&#101;&#x78;&#46;&#x63;&#x6f;&#x6d;">&#109;&#x61;&#115;&#x74;&#101;&#x72;&#x40;&#117;&#x79;&#110;&#101;&#x78;&#46;&#x63;&#x6f;&#x6d;</a></p></blockquote>]]></content>
+    <content type="html"><![CDATA[<p>这是一条咸鱼的个人笔记网站, 用来记录一些代码片段, 折腾记录等<br>(虽然大多时候都懒得写 <code>∠( ᐛ 」∠)＿</code></p><p>网站使用hexo搭建, 使用的主题是我在 <a href="https://github.com/shinux/hexo-theme-adoubi">hexo-theme-adoubi</a> 的基础上, 自行修改后的主题, 详请参见 <a href="https://github.com/kgysf/hexo-theme-axianyu">hexo-theme-axianyu</a></p><blockquote><p>我的邮箱: <a href="mailto:&#x6d;&#97;&#x73;&#x74;&#101;&#114;&#x40;&#117;&#x79;&#x6e;&#101;&#x78;&#x2e;&#99;&#111;&#109;">&#x6d;&#97;&#x73;&#x74;&#101;&#114;&#x40;&#117;&#x79;&#x6e;&#101;&#x78;&#x2e;&#99;&#111;&#109;</a></p></blockquote>]]></content>
     
     
       
